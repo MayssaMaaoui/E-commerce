@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Sport</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>SportShop</h1>
+        <nav>
+            <ul>
+                <li><a href="#homme">Homme</a></li>
+                <li><a href="#femme">Femme</a></li>
+                <li><a href="#enfant">Enfant</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.nike.com/" target="_blank">Nike</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Carrousel -->
+    <div class="carousel">
+        <div class="slides">
+            <img src="images/produit1.jpg" alt="Produit 1">
+            <img src="images/produit2.jpg" alt="Produit 2">
+            <img src="images/produit3.jpg" alt="Produit 3">
+        </div>
+    </div>
+
+    <!-- Sections des produits -->
+    <main>
+        <section id="homme">
+            <h2>Articles pour Hommes</h2>
+            <img src="images/homme.jpg" alt="Homme">
+            <p>Découvrez notre sélection pour hommes.</p>
+        </section>
+        <section id="femme">
+            <h2>Articles pour Femmes</h2>
+            <img src="images/femme.jpg" alt="Femme">
+            <p>Découvrez notre sélection pour femmes.</p>
+        </section>
+        <section id="enfant">
+            <h2>Articles pour Enfants</h2>
+            <img src="images/enfant.jpg" alt="Enfant">
+            <p>Découvrez notre sélection pour enfants.</p>
+        </section>
+
+        <!-- Tableau -->
+        <section>
+            <h2>Liste des Produits</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produit</th>
+                        <th>Prix</th>
+                        <th>Catégorie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chaussures de sport</td>
+                        <td>50 €</td>
+                        <td>Homme</td>
+                    </tr>
+                    <tr>
+                        <td>T-Shirt running</td>
+                        <td>20 €</td>
+                        <td>Femme</td>
+                    </tr>
+                    <tr>
+                        <td>Ballon de football</td>
+                        <td>15 €</td>
+                        <td>Enfant</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Formulaire -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 SportShop - Conçu par Mayssa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
